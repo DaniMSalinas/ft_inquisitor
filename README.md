@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ft_vaccine
 sql injector based on python
 
@@ -14,3 +15,7 @@ There are two types of sql injection:
 In-band SQL Injection:
     - Error-based technique relies on error message thrown by the database server to obtain information about the structure of the database.
     - Union-based SQL injection is a technique that leverages the UNION SQL operator to combine the results of two or more SELECT statements into a single result, which is then returned as part of the HTTP response.
+=======
+# ft_inquisitor
+ARP spoofing
+>>>>>>> 675922f00f8fed443cd7042159702663e070dbc7

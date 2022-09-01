@@ -6,10 +6,6 @@ from src.config import ConfigLibrary
 from src.logger import Logger as inquisitor_logger
 from src.spoofer import Arpspoofer
 
-def handler(self):
-    """function reacts when ctrl-c is pressed"""
-    self.logger("restoring arp tables")
-
 def main():
     """main function for arp spoofing"""
     inq_config = ConfigLibrary()
