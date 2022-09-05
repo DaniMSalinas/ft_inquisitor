@@ -1,21 +1,8 @@
-<<<<<<< HEAD
 # ft_vaccine
-sql injector based on python
 
-With academical purpose, this project aims to perform both simple sqli: Error-based SQLi and Union-based SQLi
+ARP spoofer based on python. With academical purpose, this project aims to perform full-duplex spoofing in a given LAN.
 
-The goal of the sql injector are:
-    - To modify the content of the databases
-    - To perform different queries that are not allowed by the application
-
-There are two types of sql injection:
-    - In-band SQL injection (Simple sqli)
-    - Inferential SQL injection (Blind sqli)
-
-In-band SQL Injection:
-    - Error-based technique relies on error message thrown by the database server to obtain information about the structure of the database.
-    - Union-based SQL injection is a technique that leverages the UNION SQL operator to combine the results of two or more SELECT statements into a single result, which is then returned as part of the HTTP response.
-=======
-# ft_inquisitor
-ARP spoofing
->>>>>>> 675922f00f8fed443cd7042159702663e070dbc7
+    - The LAN is formed by one FTP client and one FTP server (or gateway). The goal of this spoofer is
+    to sniff the traffic between the ftp client and the ftp server.
+    - Server, Client and spoofer are deployed on Docker and the network environment is configured using docker networking and version IPV4.
+    - The ARP spoofing is stoped pressing CTRL+C.
