@@ -1,4 +1,4 @@
-# ft_vaccine
+# ft_inquisitor
 
 ARP spoofer based on python. With academical purpose, this project aims to perform full-duplex spoofing in a given LAN.
 
